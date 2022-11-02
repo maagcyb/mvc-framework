@@ -1,0 +1,29 @@
+version: '3.9'
+services:
+  web:
+    container_name: web
+    image: php:8.0-apache
+    build:
+      context: .
+      dockerfile: ./docker/web/Dockerfile
+    volumes:
+      - ./:/var/www/html/ #jetziges directory mappen auf /var/www/html/
+    ports:
+      - 8000:80 #port 80 von container exposen (verfügbar machen auf lokaler maschine) auf port 8000
+    depends_on:
+      - db
+    restart: always
+    env_file:
+      - .env
+
+  db:
+    container_name: db
+    image: mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: admin
+      MYSQL_DATABASE: ${DATABASE_NAME}
+      MYSQL_USER: ${DATABASE_USER}
+      MYSQL_PASSWORD: ${DATABASE_PW}
+    ports:
+      - 9906:3306

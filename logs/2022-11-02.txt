@@ -1,0 +1,68 @@
+[02-Nov-2022 10:22:42 UTC] Uncaught Exception: Exception with message: Method asdfasdfasdfAction not found\nStacktrace: #0 /var/www/html/Core/Router.php(67): Core\AbstractController->__call()
+#1 /var/www/html/public/index.php(29): Core\Router->dispatch()
+#2 {main}\nThrown in: /var/www/html/Core/AbstractController.php on line: 26
+[02-Nov-2022 10:22:42 UTC] Uncaught Exception: Exception with message: ERROR 404: Route not found\nStacktrace: #0 /var/www/html/public/index.php(29): Core\Router->dispatch()
+#1 {main}\nThrown in: /var/www/html/Core/Router.php on line: 75
+[02-Nov-2022 10:23:46 UTC] Uncaught Exception: Exception with message: Method asdfasdfasdfAction not found\nStacktrace: #0 /var/www/html/Core/Router.php(67): Core\AbstractController->__call()
+#1 /var/www/html/public/index.php(29): Core\Router->dispatch()
+#2 {main}\nThrown in: /var/www/html/Core/AbstractController.php on line: 26
+[02-Nov-2022 10:23:46 UTC] Uncaught Exception: Exception with message: ERROR 404: Route not found\nStacktrace: #0 /var/www/html/public/index.php(29): Core\Router->dispatch()
+#1 {main}\nThrown in: /var/www/html/Core/Router.php on line: 75
+[02-Nov-2022 10:23:55 UTC] Uncaught Exception: Exception with message: Method asdfasdfasdfAction not found\nStacktrace: #0 /var/www/html/Core/Router.php(67): Core\AbstractController->__call()
+#1 /var/www/html/public/index.php(29): Core\Router->dispatch()
+#2 {main}\nThrown in: /var/www/html/Core/AbstractController.php on line: 26
+[02-Nov-2022 10:23:55 UTC] Uncaught Exception: Exception with message: ERROR 404: Route not found\nStacktrace: #0 /var/www/html/public/index.php(29): Core\Router->dispatch()
+#1 {main}\nThrown in: /var/www/html/Core/Router.php on line: 75
+[02-Nov-2022 10:24:11 UTC] Uncaught Exception: Exception with message: Method asdfasdfasdfAction not found\nStacktrace: #0 /var/www/html/Core/Router.php(67): Core\AbstractController->__call()
+#1 /var/www/html/public/index.php(29): Core\Router->dispatch()
+#2 {main}\nThrown in: /var/www/html/Core/AbstractController.php on line: 26
+[02-Nov-2022 10:24:11 UTC] Uncaught Exception: Exception with message: ERROR 404: Route not found\nStacktrace: #0 /var/www/html/public/index.php(29): Core\Router->dispatch()
+#1 {main}\nThrown in: /var/www/html/Core/Router.php on line: 75
+[02-Nov-2022 10:31:45 UTC] Uncaught Exception: Exception with message: Method asdfasdfasdfAction not found\nStacktrace: #0 /var/www/html/Core/Router.php(67): Core\AbstractController->__call()
+#1 /var/www/html/public/index.php(29): Core\Router->dispatch()
+#2 {main}\nThrown in: /var/www/html/Core/AbstractController.php on line: 26
+[02-Nov-2022 10:31:45 UTC] Uncaught Exception: Exception with message: ERROR 404: Not Found\nStacktrace: #0 /var/www/html/public/index.php(29): Core\Router->dispatch()
+#1 {main}\nThrown in: /var/www/html/Core/Router.php on line: 75
+[02-Nov-2022 10:32:40 UTC] Uncaught Exception: Exception with message: Method asdfasdfasdfAction not found\nStacktrace: #0 /var/www/html/Core/Router.php(67): Core\AbstractController->__call()
+#1 /var/www/html/public/index.php(29): Core\Router->dispatch()
+#2 {main}\nThrown in: /var/www/html/Core/AbstractController.php on line: 26
+[02-Nov-2022 10:32:44 UTC] Uncaught Exception: Exception with message: Controller App\Controllers\Products not found\nStacktrace: #0 /var/www/html/public/index.php(29): Core\Router->dispatch()
+#1 {main}\nThrown in: /var/www/html/Core/Router.php on line: 72
+[02-Nov-2022 10:33:00 UTC] Uncaught Exception: Exception with message: Controller App\Controllers\Products not found\nStacktrace: #0 /var/www/html/public/index.php(29): Core\Router->dispatch()
+#1 {main}\nThrown in: /var/www/html/Core/Router.php on line: 72
+[02-Nov-2022 10:33:15 UTC] Uncaught Exception: Exception with message: Controller App\Controllers\Products not found\nStacktrace: #0 /var/www/html/public/index.php(29): Core\Router->dispatch()
+#1 {main}\nThrown in: /var/www/html/Core/Router.php on line: 72
+[02-Nov-2022 10:33:25 UTC] Uncaught Exception: Exception with message: Controller App\Controllers\Products not found\nStacktrace: #0 /var/www/html/public/index.php(29): Core\Router->dispatch()
+#1 {main}\nThrown in: /var/www/html/Core/Router.php on line: 72
+[02-Nov-2022 10:54:23 UTC] Uncaught Exception: Exception with message: Controller App\Controllers\Asdf not found\nStacktrace: #0 /var/www/html/public/index.php(29): Core\Router->dispatch()
+#1 {main}\nThrown in: /var/www/html/Core/Router.php on line: 72
+[02-Nov-2022 10:54:42 UTC] Uncaught Exception: Twig\Error\LoaderError with message: Unable to find template "Home/inde.html" (looked into: ../App/Views).\nStacktrace: #0 /var/www/html/vendor/twig/twig/src/Loader/FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate()
+#1 /var/www/html/vendor/twig/twig/src/Environment.php(261): Twig\Loader\FilesystemLoader->getCacheKey()
+#2 /var/www/html/vendor/twig/twig/src/Environment.php(309): Twig\Environment->getTemplateClass()
+#3 /var/www/html/vendor/twig/twig/src/Environment.php(277): Twig\Environment->load()
+#4 /var/www/html/Core/View.php(33): Twig\Environment->render()
+#5 /var/www/html/App/Controllers/Home.php(13): Core\View::renderTemplate()
+#6 [internal function]: App\Controllers\Home->indexAction()
+#7 /var/www/html/Core/AbstractController.php(22): call_user_func()
+#8 /var/www/html/Core/Router.php(67): Core\AbstractController->__call()
+#9 /var/www/html/public/index.php(29): Core\Router->dispatch()
+#10 {main}\nThrown in: /var/www/html/vendor/twig/twig/src/Loader/FilesystemLoader.php on line: 227
+[02-Nov-2022 11:09:08 UTC] Uncaught Exception: Twig\Error\LoaderError with message: Unable to find template "Home/inde.html" (looked into: ../App/Views).\nStacktrace: #0 /var/www/html/vendor/twig/twig/src/Loader/FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate()
+#1 /var/www/html/vendor/twig/twig/src/Environment.php(261): Twig\Loader\FilesystemLoader->getCacheKey()
+#2 /var/www/html/vendor/twig/twig/src/Environment.php(309): Twig\Environment->getTemplateClass()
+#3 /var/www/html/vendor/twig/twig/src/Environment.php(277): Twig\Environment->load()
+#4 /var/www/html/Core/View.php(33): Twig\Environment->render()
+#5 /var/www/html/App/Controllers/Home.php(13): Core\View::renderTemplate()
+#6 [internal function]: App\Controllers\Home->indexAction()
+#7 /var/www/html/Core/AbstractController.php(22): call_user_func()
+#8 /var/www/html/Core/Router.php(67): Core\AbstractController->__call()
+#9 /var/www/html/public/index.php(29): Core\Router->dispatch()
+#10 {main}\nThrown in: /var/www/html/vendor/twig/twig/src/Loader/FilesystemLoader.php on line: 227
+[02-Nov-2022 11:10:40 UTC] Uncaught Exception: PDOException with message: could not find driver\nStacktrace: #0 /var/www/html/Core/Database/AbstractDb.php(37): PDO->__construct()
+#1 /var/www/html/App/Models/Post.php(11): Core\Database\AbstractDb->connect()
+#2 /var/www/html/App/Controllers/Posts.php(18): App\Models\Post::getAll()
+#3 [internal function]: App\Controllers\Posts->indexAction()
+#4 /var/www/html/Core/AbstractController.php(22): call_user_func()
+#5 /var/www/html/Core/Router.php(67): Core\AbstractController->__call()
+#6 /var/www/html/public/index.php(29): Core\Router->dispatch()
+#7 {main}\nThrown in: /var/www/html/Core/Database/AbstractDb.php on line: 37
